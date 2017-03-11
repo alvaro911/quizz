@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <title>Quizz</title>
+  </head>
+  <body>
+    <div class="opener">
+      <h1>Soccer Quizz</h1>
+      <button>Start</button>
+    </div>
+
+    <div class="quizz hidden">
+      <h2></h2>
+      <form></form>
+        <div class="current_question"></div>
+        <p class="correct">You are right</p>
+        <p class="incorrect">You are wrong</p>
+        <button class="next btn_hidden">Next</button>
+    </div>
+
+    <div class="counter">
+      <div class="right">0</div>
+      <div class="wrong">0</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
