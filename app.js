@@ -134,6 +134,7 @@ $(document).ready(()=>{
           $('.correct').css('display','block')
           $('.right').text(right+=1)
         }else{
+          $('input[value="ans"]').prev().css('background-color','#23bb97')
           $this.prev().css('background-color', '#e35138');
           $('.incorrect').css('display','block')
           $('.wrong').text(wrong+=1)
